@@ -1,7 +1,8 @@
+### DFS ###
 import sys
 sys.setrecursionlimit(10**9)
 input = sys.stdin.readline
-### DFS ###
+
 n, m, r = map(int, input().split())
 
 graph = [[] for _ in range(n+1)]  #이차배열 반복문!!
