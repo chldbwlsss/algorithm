@@ -1,12 +1,11 @@
-import sys
 from collections import deque
 
 t = int(input())
 
 for _ in range(t):
     n = int(input())
-    now = list(map(int, sys.stdin.readline().split()))
-    dest = list(map(int, sys.stdin.readline().split()))
+    now = list(map(int, input().split()))
+    dest = list(map(int, input().split()))
 
     check = [[0] * n for _ in range(n)]
     visited = [[False] * n for _ in range(n)]
